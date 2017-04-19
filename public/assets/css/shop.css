@@ -1,0 +1,422 @@
+#items-list {
+    margin-right: -25px;
+}
+.shop-selector{
+    background-color: #20313E;
+    color: #c2c3c7;
+    border: 1px solid #2C4A5F;
+    height: 33px;
+    padding: 0px 0px 0px 5px;
+    display: inline-block;
+}
+.btn-inv{
+    width: 32px;
+    margin-left: 10px;
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    height: 32px;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgba(36, 131, 208, 0.34);
+    border: 1px solid #2483D0 !important;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+.btn-buy {
+    margin: 2px;
+    float: right;
+    padding: 0px 5px 0px 5px;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: rgba(63, 190, 90, 0.34);
+	border: 1px solid #399B4E;
+	color: #fff;
+	text-align: center;
+}
+.btn-buy:hover,
+.btn-buy:focus,
+.btn-buy:active {
+	background: rgba(63, 190, 90, 0.40);
+}
+.btn-history {
+    margin: 2px;
+	background: rgba(252, 131, 86, 0.4);
+	border: 1px solid #FC8356;
+    float: right;
+    padding: 0px 5px 0px 5px;
+	position: relative;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #fff;
+	text-align: center;
+}
+.btn-history:hover,
+.btn-history:focus,
+.btn-history:active {
+	background: rgba(252, 131, 86, 0.5);
+}
+.deposit-item {
+    cursor: pointer !important;
+    float: none;
+    display: inline-block;
+    height: 96px;
+    width: 110px;
+    margin: 0px 16.3px 19.7px 0;
+}
+.deposit-item .img-wrap img {
+    width: 90px;
+    height: 90px;
+    margin-top: -8px;
+    margin-bottom: -1px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.deposit-item .name {
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 5px;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: rgb(21, 33, 41);
+    height: 15px;
+    line-height: 15px;
+    border-radius: 0px 0px 5px 5px;
+    position: absolute;
+    z-index: 1;
+}
+.deposit-item:hover .name {
+    white-space: normal;
+    height: auto !important;
+}
+.deposit-item .deposit-price {
+    color: #D3E7F3;
+    font-size: 14px;
+    font-weight: 900;
+    position: absolute;
+    width: 100%;
+    bottom: 17px;
+    left: 5px;
+    text-shadow: 1px 1px 5px #000000;
+    text-align: left;
+    background: none;
+    padding: 0px;
+}
+.en .deposit-item .deposit-price > span {
+    font-size: 15px;
+}
+.ru .deposit-item .deposit-price > span {
+    display: none;
+}
+.ru .deposit-item .deposit-price:after {
+    content: '';
+    background: url("../img/sprites.png") -17px -451px no-repeat;
+    height: 13px;
+    width: 15px;
+    position: absolute;
+    margin-left: 4px;
+    top: 0px;
+}
+.deposit-count {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 25%;
+    text-shadow: 0 2px 1px rgba(25, 67, 49, 0.26);
+    font-size: 12px;
+    background-color: rgba(8, 20, 16, 0.24);
+    border: 1px solid #2F5463;
+    border-radius: 0 0 0 7px;
+    -webkit-box-shadow: inset 1px -3px 9px rgba(0, 0, 0, 0.14);
+    box-shadow: inset 1px -3px 9px rgba(0, 0, 0, 0.14);
+    line-height: 20px;
+    height: 20px;
+    margin-right: 1px;
+    text-align: center;
+}
+.deposit-exterior {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 25%;
+    font-size: 12px;
+    background-color: rgba(8, 20, 16, 0.24);
+    border: 1px solid #2F5463;
+    border-radius: 0 0 7px 0;
+    -webkit-box-shadow: inset 1px -3px 9px rgba(0, 0, 0, 0.14);
+    box-shadow: inset 1px -3px 9px rgba(0, 0, 0, 0.14);
+    line-height: 20px;
+    height: 20px;
+    margin-right: 1px;
+    text-align: center;
+}
+.left-totalitems {
+    display: inline-block;
+    color: #c2c3c7;
+    margin-top: 8px;
+    font-size: 14px;
+    padding-left: 23px;
+    background: url(../img/shop-sprite.png) no-repeat;
+    background-position: -103px -35px;
+    line-height: 18px;
+}
+.left-totalitems span {
+    color: #fff;
+}
+.price-form {
+    display: inline-block;
+    margin-right: 15px;
+    float: right;
+    color: #c2c3c7;
+}
+.price-form input {
+    background-color: #20313E;
+    border: 1px solid #2C4A5F;
+    border-radius: 3px;
+    outline: none;
+    width: 80px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px;
+    text-align: center;
+    color: #fff;
+    transition: 0.2s;
+    margin: 0 4px;
+}
+.price-form input:focus {
+    background: #15212A;
+    border: 1px solid rgba(179, 229, 255, 0.7);
+    -webkit-box-shadow: inset 0 1px 1px rgba(179, 229, 255, 0.2), 0 0 6px rgba(179, 229, 255, 0.88);
+    box-shadow: inset 0 1px 1px rgba(179, 229, 255, 0.2), 0 0 6px rgba(179, 229, 255, 0.88);
+}
+.search-form {
+    float: right;
+    display: inline-block;
+    position: relative;
+    color: #9fa1a7;
+    font-size: 0.90em;
+}
+.search-form .search-btn {
+    background: url(../img/shop-sprite.png) no-repeat -77px 0;
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    margin-top: -8px;
+}
+.search-form input {
+    color: #fff;
+    background-color: #20313E;
+    border: 1px solid #2C4A5F;
+    border-radius: 3px;
+    outline: none;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 10px 0 33px;
+    width: 405px;
+    transition: 0.2s;
+}
+.search-form input:focus {
+    background: #15212A;
+    border: 1px solid rgba(179, 229, 255, 0.7);
+    -webkit-box-shadow: inset 0 1px 1px rgba(179, 229, 255, 0.2), 0 0 6px rgba(179, 229, 255, 0.88);
+    box-shadow: inset 0 1px 1px rgba(179, 229, 255, 0.2), 0 0 6px rgba(179, 229, 255, 0.88);
+}
+.shop-item-filters {
+    background: #253e50;
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid #2c4a5f;
+    padding: 10px;
+}
+.shop-item-filters .myhistorylink {
+    float: right;
+    color: #fefefe;
+    margin: 8px 5px 0px 12px;
+    text-decoration: none;
+}
+.shop-item-filters .myhistorylink:hover {
+    text-decoration: underline;
+}
+/*detailed-info-body*/
+
+.detailed-info-body .detailed-info-body-left {
+    float: left;
+    margin: -15px 0 0 -5px;
+}
+.detailed-info-body .detailed-info-body-left:after {
+    content: '';
+    width: 243px;
+    height: 243px;
+    position: absolute;
+    background: url(../img/item_bg.png) no-repeat;
+    top: -42px;
+    left: -34px;
+    z-index: 1;
+}
+.detailed-info-body-left .detailed-image > img {
+    width: 190px;
+    margin: -15px 0px;
+}
+.detailed-info-body-left .detailed-image {
+    margin-bottom: 2px;
+    position: relative;
+    z-index: 2;
+}
+.detailed-info-body-left .explore-game {
+    text-decoration: none;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: 500;
+    opacity: 0.8;
+    display: block;
+    text-align: center;
+    margin-right: 5px;
+    color: #ADB8BF;
+}
+.detailed-info-body-left .explore-game:before {
+    content: '';
+    display: inline-block;
+    background: url(../img/shop-sprite.png) no-repeat;
+    background-position: -93px 0px;
+    width: 40px;
+    height: 12px;
+}
+.detailed-info-body-left .explore-game:hover {
+    opacity: 1;
+}
+.detailed-info-body .detailed-info-body-right {
+    width: 60%;
+    float: right;
+    text-align: right;
+}
+.detailed-info-body .detailed-info-body-right h2 {
+    margin: 0px;
+    padding: 14px 0 10px;
+    border-top: 4px solid #fff;
+    border-bottom: 1px solid #6a707d;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detailed-info-desc-wrap {
+    margin: 15px 0px 5px;
+}
+.detailed-info-body-right .detailed-info-desc,
+.detailed-info-body-right .detailed-info-price {
+    display: inline-block;
+    color: #d9dadb;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+    width: 142px;
+    text-transform: uppercase;
+}
+.detailed-info-body-right .detailed-info-desc:first-of-type,
+.detailed-info-body-right .detailed-info-price:first-of-type {
+    margin-right: 20px;
+}
+.detailed-info-body-right .detailed-info-desc dl dt,
+.detailed-info-body-right .detailed-info-price dl dt {
+    border-bottom: 1px solid #6a707d;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+.detailed-info-body-right .detailed-info-desc dl dd,
+.detailed-info-body-right .detailed-info-price dl dd {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-left: 0px;
+}
+.detailed-info-body-right .detailed-info-price dt {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    color: #939cb2;
+}
+.detailed-info-body-right .detailed-info-price .detailed-our-price {
+    color: #e9f74e;
+    border-bottom: 3px solid #e9f74e;
+}
+.detailed-info-body-right .detailed-info-price .detailed-our-price + dd {
+    color: #e9f74e;
+}
+.detailed-info-body-right .detailed-info-price dt span {
+    font-weight: normal;
+    text-transform: none;
+    font-size: 0.75em;
+}
+.detailed-info-body-right .detailed-info-price .detailed-steam-price {
+    position: relative;
+    display: inline-block;
+}
+.detailed-info-body-right .detailed-info-price .detailed-steam-price:before {
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 2px;
+    background-color: rgba(147, 156, 178, 0.8);
+    top: 45%;
+    left: 0;
+}
+.buy-status {
+    background-color: #3c624a;
+    border: solid 1px #547348;
+    color: #cbffd8;
+    font-weight: 400;
+    font-size: 13px;
+    -webkit-box-shadow: 0 0 7px rgba(165, 62, 74, 0.11);
+    box-shadow: 0 0 7px rgba(165, 62, 74, 0.11);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.26);
+    padding: 5px 10px;
+    margin-top: 7px;
+    margin-left: -21px;
+    margin-right: -21px;
+    text-align: center;
+}
+.memoMsg {
+    color: #A7AFBD;
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 100;
+    line-height: 13px;
+    background: rgba(75, 80, 93, 0.4);
+    padding: 11px 10px 10px 100px;
+}
+.memoMsg:before {
+    content: '';
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    background: url(../img/warning-64.png) no-repeat;
+    /* top: 244px; */
+    
+    left: 16px;
+}
